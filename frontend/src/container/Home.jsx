@@ -9,7 +9,6 @@ import { userQuery } from "../utils/data";
 import { client } from "../client";
 import { fetchUser } from "../utils/fetchUser";
 import {Flowbite, DarkThemeToggle} from 'flowbite-react'
-import SkeletonUserImage from "../skeletons/skeletonUserImage";
 
 const Home = () => {
   const [toggleSideBar, setToggleSideBar] = useState(false);
